@@ -43,7 +43,7 @@ public class TimeListFragment extends Fragment {
             hallColumn+=hallArray[i]+"\n";
             timeColumn+=timesArray[i]+"\n";
         }
-
+        hallColumn+="\n_____________________"
         hallListView.setText(hallColumn);
         timeListView.setText(timeColumn);
 
